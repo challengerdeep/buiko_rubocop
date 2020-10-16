@@ -6,19 +6,19 @@ Layout/EndAlignment:
   EnforcedStyleAlignWith: variable
   AutoCorrect: true
 
-Layout/AlignParameters:
+Layout/ParameterAlignment:
   EnforcedStyle: with_fixed_indentation
 
 Layout/CaseIndentation:
   EnforcedStyle: end
 
-Layout/IndentFirstArrayElement:
+Layout/FirstArrayElementIndentation:
   EnforcedStyle: consistent
 
-Layout/IndentFirstHashElement:
+Layout/FirstHashElementIndentation:
   EnforcedStyle: consistent
 
-Layout/IndentFirstArgument:
+Layout/FirstArgumentIndentation:
   EnforcedStyle: consistent
 
 Layout/MultilineMethodCallIndentation:
@@ -66,10 +66,10 @@ Metrics/BlockLength:
 Metrics/ModuleLength:
   Exclude: ['**/*.gemspec', 'spec/**/*']
 
-Metrics/LineLength:
+Layout/LineLength:
   Max: 80
 
-Naming/UncommunicativeMethodParamName:
+Naming/MethodParameterName:
   AllowedNames: ['io', 'id', 'to', 'by', 'on', 'in', 'at', 'ip', 'db', 'iv']
 
 Naming/VariableNumber:
